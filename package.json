@@ -1,0 +1,22 @@
+{
+  "name": "learning-flexsearch",
+  "version": "1.0.0",
+  "description": "Experimenting with flexsearch",
+  "exports": "./index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "keywords": [
+    "search",
+    "javascript"
+  ],
+  "author": "Schalk Neethling",
+  "license": "MIT",
+  "dependencies": {
+    "flexsearch": "^0.7.31"
+  },
+  "devDependencies": {
+    "jest": "^29.2.2"
+  }
+}
